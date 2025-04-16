@@ -1,76 +1,82 @@
 /* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-  }
-  
-  .container {
-    width: 90%;
-    max-width: 800px;
-    margin: 30px auto;
-    background-color: #fff;
-    padding: 20px 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  }
-  
-  header {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-  }
-  
-  header p {
-    color: #666;
-  }
-  
-  section {
-    margin-bottom: 30px;
-  }
-  
-  h2 {
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-  }
-  
-  .item {
-    margin-bottom: 15px;
-  }
-  
-  .item h3 {
-    font-size: 1.2em;
-    color: #34495e;
-  }
-  
-  .item span {
-    display: block;
-    font-size: 0.9em;
-    color: #888;
-    margin-bottom: 5px;
-  }
-  
-  ul {
-    list-style: disc inside;
-  }
-  
-  footer {
-    text-align: center;
-    font-size: 0.9em;
-    color: #aaa;
-    margin-top: 20px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif; /* Tipografía moderna */
+  background-color: #f4f4f4; /* Fondo claro */
+  color: #333; /* Color del texto */
+  line-height: 1.6; /* Espaciado entre líneas */
+}
+
+.container {
+  width: 90%;
+  max-width: 800px; /* Ancho máximo del contenedor */
+  margin: 30px auto; /* Centrando el contenedor */
+  background-color: #fff; /* Fondo blanco */
+  padding: 20px 30px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+header {
+  text-align: center; /* Alineación centrada */
+  margin-bottom: 30px; /* Espaciado inferior */
+  background-color: #2980b9; /* Fondo azul */
+  color: #fff; /* Texto blanco */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 10px 10px 0 0; /* Bordes redondeados en la parte superior */
+}
+
+header h1 {
+  font-size: 2.5em; /* Tamaño del título */
+  margin-bottom: 10px; /* Espaciado inferior */
+}
+
+header p {
+  color: #e0e0e0; /* Texto gris claro */
+}
+
+section {
+  margin-bottom: 30px; /* Espaciado inferior entre secciones */
+}
+
+h2 {
+  color: #e74c3c; /* Color rojo para encabezados de sección */
+  border-bottom: 2px solid #3498db; /* Línea inferior azul */
+  padding-bottom: 5px; /* Espaciado inferior */
+  margin-bottom: 15px; /* Espaciado inferior */
+}
+
+.item {
+  margin-bottom: 15px; /* Espaciado inferior entre elementos */
+  padding: 10px; /* Espaciado interno */
+  border: 1px solid #ddd; /* Borde gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.item h3 {
+  font-size: 1.2em; /* Tamaño del título de experiencia */
+  color: #34495e; /* Color oscuro para títulos */
+}
+
+.item span {
+  display: block; /* Mostrar en bloque */
+  font-size: 0.9em; /* Tamaño de texto más pequeño */
+  color: #888; /* Color gris */
+  margin-bottom: 5px; /* Espaciado inferior */
+}
+
+ul {
+  list-style: disc inside; /* Estilo de lista */
+}
+
+footer {
+  text-align: center; /* Alineación centrada */
+  font-size: 0.9em; /* Tamaño de texto más pequeño */
+  color: #aaa; /* Color gris claro */
+  margin-top: 20px; /* Espaciado superior */
+}
